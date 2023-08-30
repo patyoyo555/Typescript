@@ -1,5 +1,4 @@
-function ; 
-getClockAngle(hh_mm: string): number {
+function getClockAngle(hh_mm: string): number {
     const [hours, minutes] = hh_mm.split(":").map(Number);
 
     const hourAngle = (hours % 12) * 30 + (minutes / 60) * 30;
