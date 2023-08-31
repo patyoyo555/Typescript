@@ -10,4 +10,4 @@ function getClockAngle(hh_mm: string): number {
 
 const inputTime = "10:00";
 const angle = getClockAngle(inputTime);
-console.log(The smaller angle between the hour and minute hands is: ${angle} degrees);
+console.log("The smaller angle between the hour and minute hands is: ${angle} degrees");
